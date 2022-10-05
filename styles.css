@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+}
+
+.post{
+    margin: 3em;
+    background-color: white;
+    border-style: solid;
+    border-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+.header{
+    display: inline;
+}
+
+.profile-pic{
+    font-size: 40px;
+    position: absolute;
+    padding: 10px;
+}
+
+.profile-info h1{
+    position: relative;
+    font-size: 11px;
+    left: 50px;
+    top: 5px;
+}
+
+.profile-info h2{
+    position: relative;
+    font-size: 11px;
+    left: 50px;
+}
+
+.fa-solid{
+    position: relative;
+    float: right;
+    right: 10px;
+    display: inline-block;
+    top: -30px;
+}
+
+img{
+    object-fit: cover;
+    object-position: center;
+    width: 400px;
+    height: 200px;
+}
+
+.buttons{
+    padding: 5px;
+    font-size: 17px;
+    
+}
+.fa-bookmark{
+    float: right;
+    margin-right: 5px;
+}
+
+.caption-likes{
+    font-size: 12px;
+    margin: 5px;
+}
+
+.caption-text{
+    font-size: 12px;
+    margin: 5px;
+}
